@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Fjalla+One&family=Poppins:wght@200&display=swap');
+
+:root {
+    --header-bg-color: #66199c;
+    --line-bg-color: #07ad07;
+    --body-bg-color: #974f14;
+    --text-color: #ffffff;
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px 0;
+    background-color: var(--header-bg-color);
+    color: var(--text-color);
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.line
+{
+    padding: 20px 0;
+    background-color: var(--line-bg-color);
+    color: var(--text-color);
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+form
+{
+    padding: 40px;
+    display: flex;
+    background-color: var(--body-bg-color);
+    color: var(--text-color);
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
