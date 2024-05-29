@@ -1,0 +1,23 @@
+body {
+    background-color: white;
+}
+
+#saffron {
+    background-color: rgb(255, 87, 51);
+    height: 180px;
+}
+
+#white {
+    background-color: white;
+    height: 180px;
+    text-align: center;
+}
+
+#green {
+    background-color: green;
+    height: 180px;
+}
+
+.mark {
+    text-align: center;
+}
